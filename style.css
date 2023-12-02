@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background: linear-gradient(90deg, rgba(126,149,182,1) 28%, rgba(131,189,214,1) 49%, rgba(66,165,185,1) 100%);
+    min-height: 100vh;
+}
+
+.page{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 65px;
+}
+
+
+#logo img{
+    width: 20%;
+
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 25px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+li a:hover{
+    color:#4076c4;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+main span{
+    color: #152c4d;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+main h1{
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: 'Mulish', sans-serif;;
+}
+
+main p{
+    font-family: 'open Sans', sans-serif;
+    color: #152c4d;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 25px;
+    height: 30px;
+    width: 15%;
+    background-color: #152c4d;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    font-family: 'open Sans', sans-serif;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #4076c4;
+    transition: 0.5s;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 45%;
+    
+    
+}
+
+svg{
+    width: 35px;
+    height: 25px;
+}
+
+footer ul{
+   display: flex;
+   justify-content: space-around;
+   gap: 30px;
+   text-align: center;
+   text-decoration: none;
+   list-style: none;
+   height: 40px;
+   font-size: 40px;
+}
